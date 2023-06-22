@@ -266,7 +266,7 @@
     open "8.0.5"
     ora "5.4.1"
 
-"@contentful/app-sdk@^4.0.0", "@contentful/app-sdk@^4.17.1":
+"@contentful/app-sdk@^4.17.1":
   version "4.17.1"
   resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.17.1.tgz#d8d0c195012c40070da0554f9c928a9f5c10a7ac"
   integrity sha512-8vh/X+kW33412lxwi2Acr6V4W7UxNvH273cJUSJ43OaFlwAl+T4aWhIULXq+sT9ASc9QxsujiWFHbCR38kl/oQ==
@@ -688,12 +688,11 @@
     "@contentful/f36-typography" "^4.21.4"
     emotion "^10.0.17"
 
-"@contentful/react-apps-toolkit@1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@contentful/react-apps-toolkit/-/react-apps-toolkit-1.2.2.tgz#f587ffdd0fad4b851202356af2a9fbcb2caf9a7d"
-  integrity sha512-ne2JiuirDivZsypwyiX8KYEhY2OPiv5u2h241KtnBLv1vLH7zCH3f3F0RklJrgwF6iTvOeq/kjVr3Va9rUJWdg==
+"@contentful/react-apps-toolkit@1.2.16":
+  version "1.2.16"
+  resolved "https://registry.yarnpkg.com/@contentful/react-apps-toolkit/-/react-apps-toolkit-1.2.16.tgz#8b666566a753332f7b2f3db6656c09f695c97935"
+  integrity sha512-vx7+T4h+w1XBbn7OfRoXr8YUTtiyRNLaltF2ziM4xMqBryu/3Y71nBbhbxD6NIfOui3QIo3TR9Q5sPTZvGbIVw==
   dependencies:
-    "@contentful/app-sdk" "^4.0.0"
     contentful-management ">=7.30.0"
 
 "@contentful/rich-text-types@^16.0.2", "@contentful/rich-text-types@^16.0.3":
