@@ -267,20 +267,22 @@
     ora "5.4.1"
 
 "@contentful/app-sdk@^4.0.0", "@contentful/app-sdk@^4.17.1":
-  version "4.17.1"
-  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.17.1.tgz#d8d0c195012c40070da0554f9c928a9f5c10a7ac"
-  integrity sha512-8vh/X+kW33412lxwi2Acr6V4W7UxNvH273cJUSJ43OaFlwAl+T4aWhIULXq+sT9ASc9QxsujiWFHbCR38kl/oQ==
+  version "4.22.1"
+  resolved "https://registry.yarnpkg.com/@contentful/app-sdk/-/app-sdk-4.22.1.tgz#05bc4782b26da8697157abc8e5c30f96e4c66ca3"
+  integrity sha512-Db8voGJ1h045P9aXSKnZSZ+GLKt6f4vN6IzBX+GbapbLKzzPFR1+uqR3DygJX1ZE07tN+OnDzCazMPudQYsd/Q==
+  dependencies:
+    contentful-management ">=7.30.0"
 
 "@contentful/f36-accordion@^4.10.5":
-  version "4.37.1"
-  resolved "https://registry.yarnpkg.com/@contentful/f36-accordion/-/f36-accordion-4.37.1.tgz#844d4c5c71296cc9bcaba2d40ffefdb2686ed224"
-  integrity sha512-1Nxf3wHiQSmpkIVLHvHTgipRka1rWvr186EQ2GewxASOQ9A8kNu1eGs0bZW1UPTMffohEQrdF91Mq0M0mj3I+w==
+  version "4.45.0"
+  resolved "https://registry.yarnpkg.com/@contentful/f36-accordion/-/f36-accordion-4.45.0.tgz#83045f073c742d301154f63d4aeb0e9d394bb936"
+  integrity sha512-7L78Xnu8VlZNdSgVEyVClMVBR96ktqhMSLjy7D6cOqwiro2HGz98VTWtlqv7unKgDzgbZYukcK+kmnaN6sTgGg==
   dependencies:
-    "@contentful/f36-collapse" "^4.37.1"
-    "@contentful/f36-core" "^4.37.1"
+    "@contentful/f36-collapse" "^4.45.0"
+    "@contentful/f36-core" "^4.45.0"
     "@contentful/f36-icons" "^4.23.2"
-    "@contentful/f36-tokens" "^4.0.1"
-    "@contentful/f36-typography" "^4.37.1"
+    "@contentful/f36-tokens" "^4.0.2"
+    "@contentful/f36-typography" "^4.45.0"
     emotion "^10.0.17"
 
 "@contentful/f36-asset@^4.10.5", "@contentful/f36-asset@^4.37.1":
@@ -351,13 +353,22 @@
     emotion "^10.0.17"
     truncate "^3.0.0"
 
-"@contentful/f36-collapse@^4.10.5", "@contentful/f36-collapse@^4.37.1":
+"@contentful/f36-collapse@^4.10.5":
   version "4.37.1"
   resolved "https://registry.yarnpkg.com/@contentful/f36-collapse/-/f36-collapse-4.37.1.tgz#3c0604cde328bdc2df2b3c4ab7662c6cce186a12"
   integrity sha512-U9ase8f5YY0+gl/rdme6bycS0l5WyaxX4ovZzRn7ZaR1uPzqbshZMA1xcD8ZvBpC0FORtyZAeVFh0l/ldSGMYw==
   dependencies:
     "@contentful/f36-core" "^4.37.1"
     "@contentful/f36-tokens" "^4.0.1"
+    emotion "^10.0.17"
+
+"@contentful/f36-collapse@^4.45.0":
+  version "4.45.0"
+  resolved "https://registry.yarnpkg.com/@contentful/f36-collapse/-/f36-collapse-4.45.0.tgz#5aad531a688f533e82a8a8550a23e1b3af5befc1"
+  integrity sha512-wCAm+lR9HSQ/IEsnheSSNW0UT6B9SJEnutzJnh16Xk1trZWqRhdUmys69mOAleKq/lqwfODKl8CfzGUVxPcEmw==
+  dependencies:
+    "@contentful/f36-core" "^4.45.0"
+    "@contentful/f36-tokens" "^4.0.2"
     emotion "^10.0.17"
 
 "@contentful/f36-components@4.10.5":
@@ -419,6 +430,17 @@
   integrity sha512-EUAxSqC3oWVyKB5dIq8CMcX4/RCq1iNLsyyp447BsKYvxe6ABe0diQkAu1WtF44yN6kZelakg+uVZCq2JtAtQQ==
   dependencies:
     "@contentful/f36-tokens" "^4.0.1"
+    "@emotion/core" "^10.1.1"
+    "@emotion/is-prop-valid" "^1.2.0"
+    csstype "^3.1.1"
+    emotion "^10.0.17"
+
+"@contentful/f36-core@^4.45.0":
+  version "4.45.0"
+  resolved "https://registry.yarnpkg.com/@contentful/f36-core/-/f36-core-4.45.0.tgz#7dbefc8e349b0e07ec1ab52266381ed494b97a55"
+  integrity sha512-UvFfwj8os0VyUFk7KVw4+LVItAiweASxWmiKgwvxM4B8O74DBcu3/OqwQbgJk01ufnPC4i2p+cSt0SZ1Z+cOkg==
+  dependencies:
+    "@contentful/f36-tokens" "^4.0.2"
     "@emotion/core" "^10.1.1"
     "@emotion/is-prop-valid" "^1.2.0"
     csstype "^3.1.1"
@@ -646,6 +668,11 @@
   resolved "https://registry.yarnpkg.com/@contentful/f36-tokens/-/f36-tokens-4.0.1.tgz#1b6a2e3fce11a61b84a855dbeed660989259ba54"
   integrity sha512-NTyMAQcfvhPP8kJgOK5mtjKpErg799iglEb9B45ii4N7aMdph2GNqgv7KBgpogfbTEGBrlKIoH8MUDSV9YNREg==
 
+"@contentful/f36-tokens@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@contentful/f36-tokens/-/f36-tokens-4.0.2.tgz#43fb9bda5b817fa7ddc45c5e96415de2761af78c"
+  integrity sha512-sM2AM/8Qn4K0mm2H14nDJMIYoAUv7+tHGUyGqnXEyOVD/5O9lzLTkELEA9R0UgtPPcTywCYC6aZCCggy/Ezd/g==
+
 "@contentful/f36-tooltip@^4.10.5", "@contentful/f36-tooltip@^4.37.1":
   version "4.37.1"
   resolved "https://registry.yarnpkg.com/@contentful/f36-tooltip/-/f36-tooltip-4.37.1.tgz#31f9775cd1aa03cc01a9015059bc0807ad3f6ba9"
@@ -666,6 +693,15 @@
   dependencies:
     "@contentful/f36-core" "^4.37.1"
     "@contentful/f36-tokens" "^4.0.1"
+    emotion "^10.0.17"
+
+"@contentful/f36-typography@^4.45.0":
+  version "4.45.0"
+  resolved "https://registry.yarnpkg.com/@contentful/f36-typography/-/f36-typography-4.45.0.tgz#0276cb99ce90eff9431f966f2e260aeaddea2e5a"
+  integrity sha512-aIuv2gsUWaezsnm/6g/HfrgK3iJWSfOWONDE4r6+glpLwiZ7twBVZFAObLHcBBI8WB4AACgs4vN3FrQiH7ZTIA==
+  dependencies:
+    "@contentful/f36-core" "^4.45.0"
+    "@contentful/f36-tokens" "^4.0.2"
     emotion "^10.0.17"
 
 "@contentful/f36-utils@^4.10.5", "@contentful/f36-utils@^4.23.2":
@@ -696,10 +732,15 @@
     "@contentful/app-sdk" "^4.0.0"
     contentful-management ">=7.30.0"
 
-"@contentful/rich-text-types@^16.0.2", "@contentful/rich-text-types@^16.0.3":
+"@contentful/rich-text-types@^16.0.2":
   version "16.1.0"
   resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.1.0.tgz#2eea32439790abf857992167df68e82734934a3a"
   integrity sha512-Pucb68FK0j9cHJ96FAewXv+bvH4XizC4KBbVqyHhPLkDIVfasj0AWU5rI1lnvysdVKu66NQkFe8xZdeFTkaLWQ==
+
+"@contentful/rich-text-types@^16.0.3":
+  version "16.2.0"
+  resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.2.0.tgz#5a98cb119340f4da46555216913e96d7ce58df70"
+  integrity sha512-4BHC+mfa50JB70epzpnas4EkiuB3mGdBZ5Rp8w7R5wXvswEf8TLg5yGau2FxmZeEjrAkDrt4vzBLVQ8v3Y//Jw==
 
 "@emotion/cache@^10.0.27":
   version "10.0.29"
@@ -1498,9 +1539,9 @@ contentful-management@10.8.0:
     lodash.isplainobject "^4.0.6"
 
 contentful-management@>=7.30.0:
-  version "10.34.1"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.34.1.tgz#e7de9369104f3f4fc14b8b10de508e452226be0c"
-  integrity sha512-DZSFP76bdhXlzIgaAqpC6x57KlWtKOCPfEts3Q9s+2LZJFBuR2iwPJYeJqsyOLj3XwCHRvarXvuRpPJ9Bnh/eA==
+  version "10.39.1"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.39.1.tgz#9acc81160184abd729e6a62b22bdbc2ee16cf52d"
+  integrity sha512-AMZJKcaXY5gSNjBs55iZqH3PwzJIrpaZ+ZDwkPj27db1zlJeaqJRNzDTWNXFWjBrLEvshav5U4K+SyU7QV0rwA==
   dependencies:
     "@contentful/rich-text-types" "^16.0.3"
     "@types/json-patch" "0.0.30"
@@ -1517,7 +1558,18 @@ contentful-resolve-response@^1.3.6:
   dependencies:
     fast-copy "^2.1.7"
 
-contentful-sdk-core@^7.0.1, contentful-sdk-core@^7.0.2:
+contentful-sdk-core@^7.0.1:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-7.1.0.tgz#74d3ef8b167c5ac390fbb5db2d6e433731e05115"
+  integrity sha512-RzTPnRsbCdVAhyka3wa9sDsAu9YsxoerNgaMqd63Ljb7qpG2zkdHcP7NTfyIbuHDJNJdAQdifyafxfEEwP+q/w==
+  dependencies:
+    fast-copy "^2.1.7"
+    lodash.isplainobject "^4.0.6"
+    lodash.isstring "^4.0.1"
+    p-throttle "^4.1.1"
+    qs "^6.9.4"
+
+contentful-sdk-core@^7.0.2:
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-7.0.6.tgz#bd6be54f166b5cddf7a5132f8087b22d8bb8d477"
   integrity sha512-xG4+a4p7VGCuxxUWh8t3O3V6gEcPP/aSE/KkvPRMYkm8PbxWYTAYG3c5pn5lmtj1QKcsY7yjiLWRXtP4qzem3Q==
@@ -2076,7 +2128,17 @@ get-func-name@^2.0.0:
   resolved "https://registry.yarnpkg.com/get-func-name/-/get-func-name-2.0.0.tgz#ead774abee72e20409433a066366023dd6887a41"
   integrity sha512-Hm0ixYtaSZ/V7C8FJrtZIuBBI+iSgL+1Aq82zSu8VQNB4S3Gk8e7Qs3VwBDJAhmRZcFqkl3tQu36g/Foh5I5ig==
 
-get-intrinsic@^1.0.2, get-intrinsic@^1.1.1, get-intrinsic@^1.1.3, get-intrinsic@^1.2.0:
+get-intrinsic@^1.0.2:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/get-intrinsic/-/get-intrinsic-1.2.1.tgz#d295644fed4505fc9cde952c37ee12b477a83d82"
+  integrity sha512-2DcsyfABl+gVHEfCOaTrWgyt+tb6MSEGmKq+kI5HwLbIYgjgmMcV8KQ41uaKz1xxUcn9tJtgFbQUEVcEbd0FYw==
+  dependencies:
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-proto "^1.0.1"
+    has-symbols "^1.0.3"
+
+get-intrinsic@^1.1.1, get-intrinsic@^1.1.3, get-intrinsic@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/get-intrinsic/-/get-intrinsic-1.2.0.tgz#7ad1dc0535f3a2904bba075772763e5051f6d05f"
   integrity sha512-L049y6nFOuom5wGyRc3/gdTLO94dySVKRACj1RmJZBQXlbTMhtNIgkWkUHq+jYmZvKf14EW1EoJnnjbmoHij0Q==
@@ -2136,6 +2198,11 @@ has-property-descriptors@^1.0.0:
   integrity sha512-62DVLZGoiEBDHQyqG4w9xCuZ7eJEwNmJRWw2VY84Oedb7WFcA27fiEVe8oUQx9hAUJ4ekurquucTGwsyO1XGdQ==
   dependencies:
     get-intrinsic "^1.1.1"
+
+has-proto@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/has-proto/-/has-proto-1.0.1.tgz#1885c1305538958aff469fef37937c22795408e0"
+  integrity sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==
 
 has-symbols@^1.0.2, has-symbols@^1.0.3:
   version "1.0.3"
@@ -2696,10 +2763,17 @@ prop-types@^15.7.2:
     object-assign "^4.1.1"
     react-is "^16.13.1"
 
-qs@^6.4.0, qs@^6.9.4:
+qs@^6.4.0:
   version "6.11.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.1.tgz#6c29dff97f0c0060765911ba65cbc9764186109f"
   integrity sha512-0wsrzgTz/kAVIeuxSjnpGC56rzYtr6JT/2BwEvMaPhFIoYa1aGO8LbzuU1R0uUYQkLpWBTOj0l/CLAJB64J6nQ==
+  dependencies:
+    side-channel "^1.0.4"
+
+qs@^6.9.4:
+  version "6.11.2"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.11.2.tgz#64bea51f12c1f5da1bc01496f48ffcff7c69d7d9"
+  integrity sha512-tDNIz22aBzCDxLtVH++VnTfzxlfeK5CbqohpSqpJgj1Wg/cQbStNAz3NuqCs5vV+pjBsK4x4pN9HlVh7rcYRiA==
   dependencies:
     side-channel "^1.0.4"
 
@@ -3038,7 +3112,12 @@ type-fest@^0.21.3:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.21.3.tgz#d260a24b0198436e133fa26a524a6d65fa3b2e37"
   integrity sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==
 
-type-fest@^3.0.0, type-fest@^3.1.0:
+type-fest@^3.0.0:
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.13.0.tgz#b088347ae73779a750c461694b264340c4c8c0d7"
+  integrity sha512-Gur3yQGM9qiLNs0KPP7LPgeRbio2QTt4xXouobMCarR0/wyW3F+F/+OWwshg3NG0Adon7uQfSZBpB46NfhoF1A==
+
+type-fest@^3.1.0:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.10.0.tgz#d75f17a22be8816aea6315ab2739fe1c0c211863"
   integrity sha512-hmAPf1datm+gt3c2mvu0sJyhFy6lTkIGf0GzyaZWxRLnabQfPUqg6tF95RPg6sLxKI7nFLGdFxBcf2/7+GXI+A==
