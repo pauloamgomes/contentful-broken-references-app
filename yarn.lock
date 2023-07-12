@@ -1475,16 +1475,18 @@ concat-stream@^1.6.0, concat-stream@^1.6.2:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-contentful-management@10.7.0:
-  version "10.7.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.7.0.tgz#237b17e576293a858925cd94d3fd9cbd29d4a8f2"
-  integrity sha512-IepNgM52UrZbPps8HmBzaeMn0v7adyevOFckavGwat28YW68f9JujXGa6RaiotR5MshKpmBE6H3449jAmJr+qg==
+contentful-management@10.39.1:
+  version "10.39.1"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.39.1.tgz#9acc81160184abd729e6a62b22bdbc2ee16cf52d"
+  integrity sha512-AMZJKcaXY5gSNjBs55iZqH3PwzJIrpaZ+ZDwkPj27db1zlJeaqJRNzDTWNXFWjBrLEvshav5U4K+SyU7QV0rwA==
   dependencies:
+    "@contentful/rich-text-types" "^16.0.3"
     "@types/json-patch" "0.0.30"
     axios "^0.27.1"
     contentful-sdk-core "^7.0.1"
-    fast-copy "^2.1.1"
+    fast-copy "^3.0.0"
     lodash.isplainobject "^4.0.6"
+    type-fest "^3.0.0"
 
 contentful-management@10.8.0:
   version "10.8.0"
