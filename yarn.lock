@@ -1475,16 +1475,18 @@ concat-stream@^1.6.0, concat-stream@^1.6.2:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-contentful-management@10.7.0:
-  version "10.7.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.7.0.tgz#237b17e576293a858925cd94d3fd9cbd29d4a8f2"
-  integrity sha512-IepNgM52UrZbPps8HmBzaeMn0v7adyevOFckavGwat28YW68f9JujXGa6RaiotR5MshKpmBE6H3449jAmJr+qg==
+contentful-management@10.39.2:
+  version "10.39.2"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.39.2.tgz#e40ea6f3c8699ab3a18164a0bdff15a346b4a638"
+  integrity sha512-B19Fi6XtwaAwzslVQ2tWiffqVFKUWDxd90IjX+6K7xm2Vr2Orn5kpbwWQ2RlkK957SbE5QjgAtQeqC2hnOrVww==
   dependencies:
+    "@contentful/rich-text-types" "^16.0.3"
     "@types/json-patch" "0.0.30"
     axios "^0.27.1"
     contentful-sdk-core "^7.0.1"
-    fast-copy "^2.1.1"
+    fast-copy "^3.0.0"
     lodash.isplainobject "^4.0.6"
+    type-fest "^4.0.0"
 
 contentful-management@10.8.0:
   version "10.8.0"
@@ -3042,6 +3044,11 @@ type-fest@^3.0.0, type-fest@^3.1.0:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.10.0.tgz#d75f17a22be8816aea6315ab2739fe1c0c211863"
   integrity sha512-hmAPf1datm+gt3c2mvu0sJyhFy6lTkIGf0GzyaZWxRLnabQfPUqg6tF95RPg6sLxKI7nFLGdFxBcf2/7+GXI+A==
+
+type-fest@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.0.0.tgz#1c87b05c3f0304a2f911b5a47bb45fa4d62031db"
+  integrity sha512-d/oYtUnPM9zar2fqqGLYPzgcY0qUlYK0evgNVti93xpzfjGkMgZHu9Lvgrkn0rqGXTgsFRxFamzjGoD9Uo+dgw==
 
 typedarray@^0.0.6:
   version "0.0.6"
